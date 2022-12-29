@@ -1,0 +1,6 @@
+{
+  "directory": ["./components"],
+  "delete": true,
+  "singleQuotes": true,
+  "noSemicolon": true
+}
