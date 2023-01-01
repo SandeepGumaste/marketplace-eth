@@ -7,3 +7,9 @@ export { default as Hero } from "./common/hero";
 // web3
 export { default as EthRates } from "./web3/ethRates";
 export { default as WalletBar } from "./web3/walletBar";
+
+// order
+export { default as OrderCard } from "./order/card";
+
+// course
+export { default as CourseList } from "./course/list";
