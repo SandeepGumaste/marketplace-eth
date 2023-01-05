@@ -1,22 +1,20 @@
-import {
-  BaseLayout,
-  Breadcrumbs,
-  CourseList,
-  EthRates,
-  Hero,
-  OrderCard,
-  WalletBar,
-} from "components";
+import { CourseList, Hero } from "components";
+import { getAllCourses } from "content";
 
-export default function Home() {
+export function getStaticProps() {
+  const { data } = getAllCourses();
+  return {
+    props: {
+      courses: data,
+    },
+  };
+}
+
+export default function Home({ courses }) {
   return (
     <>
       <Hero />
-      <Breadcrumbs />
-      <WalletBar />
-      <EthRates />
-      <OrderCard />
-      <CourseList />
+      <CourseList courses={courses} />
     </>
   );
 }
