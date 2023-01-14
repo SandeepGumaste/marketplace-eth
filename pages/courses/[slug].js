@@ -8,11 +8,15 @@ import {
 import { getAllCourses } from "content";
 
 export default function Course({ course }) {
+  const { title, description, coverImage } = course;
   return (
     <>
-      {course.title}
       <div className="py-4">
-        <CourseHero />
+        <CourseHero
+          title={title}
+          description={description}
+          coverImage={coverImage}
+        />
       </div>
       <KeyPoints />
       <Curriculum />
