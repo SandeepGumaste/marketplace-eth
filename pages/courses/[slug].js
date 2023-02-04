@@ -4,7 +4,7 @@ import {
   Curriculum,
   KeyPoints,
   Modal,
-} from "components";
+} from "components/ui";
 import { getAllCourses } from "content";
 
 export default function Course({ course }) {
@@ -18,8 +18,8 @@ export default function Course({ course }) {
           coverImage={coverImage}
         />
       </div>
-      <KeyPoints />
-      <Curriculum />
+      <KeyPoints points={course.wsl} />
+      <Curriculum locked={true} />
       <Modal />
     </>
   );

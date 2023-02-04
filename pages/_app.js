@@ -1,4 +1,4 @@
-import { BaseLayout } from "components/index";
+import { BaseLayout } from "components/ui/index";
 import "styles/globals.css";
 
 export default function App({ Component, pageProps }) {
