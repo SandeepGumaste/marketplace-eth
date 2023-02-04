@@ -27,7 +27,7 @@ const Navbar = () => {
                 Blogs
               </Link>
             </div>
-            <div>
+            <div className="">
               <Link
                 href="/wishlist"
                 className="font-medium mr-8 text-gray-500 hover:text-gray-900"
@@ -36,9 +36,9 @@ const Navbar = () => {
               </Link>
               <a
                 href="#"
-                className="font-medium mr-8 text-indigo-600 hover:text-indigo-500"
+                className="px-8 py-3 rounded-md shadow font-medium text-base mr-8 text-white bg-indigo-600 hover:bg-indigo-700"
               >
-                Log in
+                Connect
               </a>
             </div>
           </div>
