@@ -4,7 +4,7 @@ import {
   Curriculum,
   KeyPoints,
   Modal,
-} from "components";
+} from "components/ui";
 import { getAllCourses } from "content";
 
 export default function Course({ course }) {

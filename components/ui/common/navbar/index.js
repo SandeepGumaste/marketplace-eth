@@ -36,7 +36,7 @@ const Navbar = () => {
               </Link>
               <a
                 href="#"
-                className="px-8 py-3 rounded-md shadow font-medium text-base mr-8 text-white bg-indigo-600 hover:bg-indigo-700"
+                className="px-8 py-3 rounded-md shadow font-medium text-base text-white bg-indigo-600 hover:bg-indigo-700"
               >
                 Connect
               </a>
