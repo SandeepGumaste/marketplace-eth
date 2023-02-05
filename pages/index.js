@@ -3,7 +3,7 @@ import { CourseList, Hero } from "components/ui";
 import { getAllCourses } from "content";
 
 export default function Home({ courses }) {
-  const { web3, isInitialized } = useWeb3();
+  const { web3, isLoading } = useWeb3();
   return (
     <>
       <Hero />
